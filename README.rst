@@ -6,21 +6,20 @@ Creating modules can be easy. It is another way to stay DRY where you don't
 have to keep using multiple variables in one module. Essentially, a module is
 a function that is included in another file.
 
-For example: 
+example 1: 
 
-    =========    ============
-     abcd.py              efgh.py
-
-    =========    ============
-   
-     def x:               import abcd
-       print()      
-
-                                  abcd.x()
+abcd.py
+    
+def x:
+  print()
  
+example 2:      
 
-    =========    ============ 
+efgh.py 
 
+import abcd                       
+ abcd.x()
+ 
 In module efgh once can see it is copying the data from abcd and 
 printing function x.
 
@@ -76,5 +75,5 @@ In addition, it also makes programming less redudant.
 Refrences.
 ##########
 
-https://www.youtube.com/watch?v=rFv9PHjUJrI
-https://www.youtube.com/watch?v=GQiLweAoxgQ
+-https://www.youtube.com/watch?v=rFv9PHjUJrI
+-https://www.youtube.com/watch?v=GQiLweAoxgQ
