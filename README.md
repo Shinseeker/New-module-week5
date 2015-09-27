@@ -1,2 +1,2 @@
 # New-module-week5
-this is extra credit demonstrates how to download modules from online. 
+This repo will demonstrate how to download modules from online. 
